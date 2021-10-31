@@ -11,52 +11,19 @@
 
     <title>My Tour</title>
   </head>
-  <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">MY TOUR</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            
-            </ul>
-         
-          </div>
-         
-        </div>
-      </nav> -->
+  <body id="body">
+    
+ 
       <section class="header d-flex justify-content-between dark-bgcolor container">
       
-        <div class="py-3 logo pl-5 ml-5 text-center">
-          <div class="fs-3 fw-bolder text-center">
+        <div class="py-3 logo pl-5 ml-5 text-lg-center text-md-center text-start">
+          <div class="fs-3 fw-bolder text-lg-center text-md-center text-start">
             <span class="heading1">MY</span>
             <span class="heading2">TOUR</span>
         
           </div>    
   
-          <div class="fs-6 text-muted pt-2 logo-des">Your all in one trip planner!!</div>
+          <div class="text-muted pt-2 logo-des">Your all in one trip planner!!</div>
   
         </div>
         <div>
@@ -67,36 +34,15 @@
               </div>
             </li>
             <li>
-              <div class="color container bg-light text-muted fw-light fst-italic" id="color">
-                <div class="row">
-                  <h6>Theme Customizer</h6>
-  
-                  <div class="col-12 mx-2">
-                  <button type="button" class="btn btn-secondary my-2 w-100" id="default">Default</button>
-                  </div>
-                <h6 class="mx-2 fs-5">Base Colours</h6>
-                <div class="primary-color d-flex flex-column flex-wrap">
-                  <button type="button" class="btn btn-dark mx-2 my-2" id="primary-btn-1">Black</button>
-                  <button type="button" class="btn btn-outline-dark mx-2 my-2" id="primary-btn-2">White</button>
-                  </div>
-                <h6 class="mx-2 fs-5">Secondary</h6>
-                <div class="secondary-color d-flex flex-column flex-wrap">
-                  <button type="button" class="btn secondary-btn-1 mx-2 my-2" id="secondary-btn-1">Blue</button>
-                  <button type="button" class="btn secondary-btn-2 mx-2 my-2" id="secondary-btn-2">Pink</button>
-                  <button type="button" class="btn secondary-btn-2 mx-2 my-2" id="secondary-btn-3">Yellow</button>
-                  <h6 class="mx-2 fs-5">Choose your own combination</h6>
-                  <div id="color-picker-1" class="d-flex flex-column mx-2">
-                    <div class="mx-2">
-                    <h6 class="col-6">Base Colours</h6>
-                    <input type="color" class="mx-2 col-6" id="pickr1"></div>
-                    <div class="mx-2">
-                    <h6 class="col-6">Secondary</h6>
-  
-                    <input type="color"class="mx-2 col-6" id="pickr2"></div>
-                  </div>
-                  
+              <div class="color container bg-light text-muted fw-light fst-italic px-2" id="color">
+               <div class="row">
+                 <div class="btn btn-dark mt-2" id="dark-btn">
+                   DARK THEME
+                 </div>
+                 <div class="btn btn-outline-dark mt-2" id="light-btn">
+                  LIGHT THEME
                 </div>
-              </div>
+               </div>
               </div>
             </li>
             <li class="px-lg-2">
@@ -107,14 +53,14 @@
             <li>
               <div id="search-input" class="search-input px-lg-auto mx-lg-auto blue-bgcolor">
                 <form class="d-flex w-100">
-                  <input class="form-control w-100 container" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control w-100 container mx-2" type="search" placeholder="Search" aria-label="Search">
                 </form>
               </div>
             </li>
             <li class="px-lg-1">
               <a href="#" class="nav-link light-color" data-bs-toggle="modal" data-bs-target="#myModal"><i
                   class="fas fa-user"></i></a>
-              <div class="container">
+              <div class="container mx-2">
                 <div class="modal fade" id="myModal" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false"
                   tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered">
@@ -166,9 +112,9 @@
                               </div>
   
   
-                              <button type="submit" id="submit" class="btn orange-bgcolor"
+                              <button type="submit" id="submit" class="btn btn-color"
                                 class="orange-bgcolor light-color">Sign in</button>
-                              <button type="button" class="btn orange-bgcolor" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-color" data-bs-dismiss="modal">Close</button>
                             </form>
                           </div>
                           <div id="signup" class="tab-pane fade">
@@ -225,9 +171,9 @@
                               </div>
   
   
-                              <button type="submit" class="btn orange-bgcolor"
+                              <button type="submit" class="btn btn-color"
                                 class="orange-bgcolor light-color">Sign in</button>
-                              <button type="button" class="btn orange-bgcolor" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-color" data-bs-dismiss="modal">Close</button>
                             </form>
                           </div>
   
@@ -246,7 +192,7 @@
       <section>
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid px-auto d-flex align-items-center">
-            <div>
+            <div class="container px-0">
               <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -257,7 +203,7 @@
               <div class="collapse my-nav navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item px-lg-3">
-                    <a class="nav-link active light-color fw-bold" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active light-color fw-bold" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item px-lg-3">
                     <a class="nav-link light-color fw-bold" href="#about">About</a>
@@ -269,19 +215,10 @@
                   <li class="nav-item px-lg-3">
                     <a class="nav-link light-color fw-bold" href="packages.html">Packages</a>
                   </li>
-                  <li class="nav-item dropdown z-1 more">
-                    <a class="nav-link dropdown-toggle light-color fw-bold" href="#" id="navbarDropdown" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      More
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-dark fw-bold" href="#services">Services</a></li>
-                      <li><a class="dropdown-item text-dark fw-bold" href="#gallery">Gallery</a></li>
-  
-                      <li><a class="dropdown-item text-dark fw-bold" href="#reviews">Reviews</a></li>
-  
-                    </ul>
+                  <li class="nav-item px-lg-3">
+                    <a class="nav-link light-color fw-bold" href="#reviews">Reviews</a>
                   </li>
+                  
   
   
                 </ul>
@@ -296,9 +233,11 @@
       <header class="mb-5 pb-5 pb-md-1 pb-lg-1">
   <div class="container-fluid header1 px-0 py-0 w-100">
     <img src="./images/header-img1.jpg" class="header-img img img-fluid w-100">
+    
     <div class="header-content w-100">
-      <h2 class="container text-center text-light fs-1 fonts">CHOOSE YOUR DREAM DESTINATION<br> WITH 15% OFF ON 1ST TRIP!!!</h2>
-    <div class="h-tab col-12">
+      <h2 class="container mx-2 text-center text-light fs-1 fonts">CHOOSE YOUR DREAM DESTINATION<br> WITH 15% OFF ON 1ST TRIP!!!</h2>
+      
+      <div class="h-tab col-12">
   
         <div class="container menu mx-auto px-0 mb-5 shadow">
           <ul class="nav tab-head justify-content-evenly col-12 col-md-6 col-lg-6">
@@ -545,7 +484,7 @@
   </div>
   <div class="box blue-bgcolor mt-5 d-flex flex-colum justify-content-center pt-5 mx-2 mb-3 py-5">
     <div class="card-img text-center mb-5">
-      <img src="./images/header-img1.jfif" class="img img-fluid rounded-circle mb-5 border border-2">
+      <img src="./images/germany.jfif" class="img img-fluid rounded-circle mb-5 border border-2">
 
     </div>
     <div class="card-content text-center pt-5 px-2">
@@ -557,8 +496,8 @@
   </div>
 </div>
 </section>
-<section class="map mt-5 mb-5">
-  <div class="container mx-auto map d-flex justify-content-start mb-5 pb-5">
+<section class="mt-5 mb-5">
+  <div class="container map mx-auto map d-flex justify-content-start mb-5 pb-5">
 <img src="./images/map.svg" class="img img-fluid">
 <div class="top-cities">
   <div class="heading fs-4 fw-bolder text-start">
@@ -679,6 +618,133 @@
   <div class="text-center">
   <div class="btn btn-color text-center">More</div></div>
 </section>
+<section class="contact mt-5 mb-5" id="contact">
+  <h1 class="text-center mt-5 pt-5 fs-4 fw-bolder">
+    <span class="heading1">CONTACT</span>
+    <span class="heading2">US</span>
+
+  </h1>
+  <div class="container mb-5 mt-5">
+    <div class="row pb-5">
+      <div class="col-md-6 col-lg-5 col-12 container">
+        <img src="./images/contact.svg" class="img img-fluid">
+      </div>
+      <div class="col-md-6 col-lg-5 col-12">
+        <div class="container">
+          <form>
+            <div class="row mb-2">
+              <div class="col">
+                <label for="exampleInputEmail1" class="form-label text-muted">First Name</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <label for="exampleInputEmail1" class="form-label text-muted">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label for="exampleInputEmail1" class="form-label text-muted">Contact</label>
+                <input type="number" class="form-control" placeholder="" aria-label="First name">
+              </div>
+
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label for="exampleInputEmail1" class="form-label text-muted">Email</label>
+                <input type="email" class="form-control" placeholder="abc@gmail.com" aria-label="First name">
+              </div>
+
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <label for="exampleInputEmail1" class="form-label text-muted">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+            </div>
+            <button type="reset" class="btn mt-3 btn-color">Send</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="blue-bgcolor text-light pt-5 border-top border-light mx-0 mt-5">
+  <div class="container">
+    <div class="row border-bottom border-light">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-center">
+        <div class="heading fs-4 fw-bolder text-center fonts">
+          <span class="heading2">MY</span>
+          <span class="heading2">TOUR</span>
+      
+        </div>
+        <p class="fs-6 py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. fugit iure quasi ullam? Magni
+          distinctio accusamus, eligendi ipsa quasi recusandae maiores natus ut obcaecati aspernatur quis saepe,
+          tenetur.</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-center">
+        <h1 class="fs-5 text-center">Contact Us</h1>
+        <h6 class="fs-6">
+          <p><i class="fas fa-home px-2"></i>Address : Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </h6>
+        <h6 class="fs-6">
+          <p><i class="fas fa-phone-alt px-2"></i>Phone : 000000000</p>
+        </h6>
+        <h6 class="fs-6">
+          <p><i class="fas fa-envelope px-2"></i>E-mail : <a href="#contact" class="light-color text-decoration-none">abc@gmail.com</a></p>
+        </h6>
+
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <h5 class="fs-5 text-center">Information</h5>
+        <div class="row">
+          <div class="col-6">
+            <div class="fs-6"><a href="index.html" class="text-decoration-none light-color"><i
+                  class="fas fa-chevron-right px-4 px-lg-2"></i> Home</a></div>
+            <div class="fs-6"><a href="index.html" class="text-decoration-none light-color"><i
+                  class="fas fa-chevron-right px-4 px-lg-2"></i> About</a></div>
+            <div class="fs-6"><a href="index.html" class="text-decoration-none light-color"><i
+                  class="fas fa-chevron-right px-4 px-lg-2"></i> Contact</a></div>
+            
+            <div class="fs-6"><a href="packages.html" class="text-decoration-none light-color"><i
+                  class="fas fa-chevron-right px-4 px-lg-2"></i> Packages</a></div>
+          </div>
+          <div class="col-6">
+            <div class="fs-6"><a href="index.html" class="text-decoration-none light-color"><i
+                  class="fas fa-chevron-right px-4"></i> Reviews</a></div>
+            <div class="fs-6"><a href="index.html" class="text-decoration-none light-color"><i
+                  class="fas fa-chevron-right px-4"></i> Gallery</a></div>
+            <div class="fs-6"><a href="packages.html" class="text-decoration-none light-color"><i
+                  class="fas fa-chevron-right px-4"></i> Offers</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 text-center mb-2">
+        <h5 class="fs-5 text-center">Contact Us</h5>
+        <div>
+          <span class="mx-0"><img src="./images/kerela.jfif" height="80px" width="80px"></span>
+          <span class="mx-1"><img src="./images/udaipur.jfif" height="80px" width="80px"></span>
+          <span class="mx-0"><img src="./images/manali.jfif" height="80px" width="80px"></span>
+        </div>
+        <div class="mt-2">
+          <span class="mx-0"><img src="./images/rajasthan.jfif" height="80px" width="80px"></span>
+          <span class="mx-1"><img src="./images/goa.jfif" height="80px" width="80px"></span>
+          <span class="mx-0"><img src="./images/kerela.jfif" height="80px" width="80px"></span>
+        </div>
+      </div>
+    
+    
+    </div>
+    <div class="last-line d-flex justify-content-between px-2 py-2">
+      <p class="px-2">&copy; Copyright 2021.My Tours</p>
+      <p><span><a href="#"><i class="fab fa-facebook px-2"></i></a></span>
+        <span><a href="#"><i class="fab fa-instagram px-2"></i></a></span>
+        <span><a href="#"><i class="fab fa-twitter px-2"></i></a></span>
+    </div>
+  </div>
+</footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->

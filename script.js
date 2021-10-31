@@ -21,169 +21,14 @@ document.getElementById('color-panel').addEventListener('click', function () {
     panel.classList.toggle('active1');
 
 });
-// document.getElementById("default").addEventListener("click",function(){
-//     var element=document.getElementsByClassName("dark-bgcolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.backgroundColor = "#212529";
-//     }
-//     var element1=document.getElementsByClassName("light-color");
-//     for (var i = 0; i < element1.length; i++) {
-//         element1[i].style.setProperty("color", "white", "important");
-//     }
-
-//     var element=document.getElementsByClassName("orange-bgcolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "#fd7e14", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-locolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "#fd7e147a", "important");
-//         element[i].style.setProperty("color", "#fd7e14", "important");
-//     }
-//     var element=document.getElementsByClassName("passive");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "#fd7e14", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-color");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "#fd7e14", "important");
-//     }
-    
-//     // var element1=document.getElementsByClassName("light-color");
-//     // for (var i = 0; i < element1.length; i++) {
-//     //     element1[i].style.setProperty("color", "white", "important");
-//     // }
-   
-
-// });
-// document.getElementById("primary-btn-2").addEventListener("click",function(){
-//     var element=document.getElementsByClassName("dark-bgcolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.backgroundColor = "white";
-//     }
-//     var element1=document.getElementsByClassName("light-color");
-//     for (var i = 0; i < element1.length; i++) {
-//         element1[i].style.setProperty("color", "black", "important");
-//     }
-   
-
-// });
-// document.getElementById("primary-btn-1").addEventListener("click",function(){
-//     var element=document.getElementsByClassName("dark-bgcolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.backgroundColor = "#212529";
-//     }
-//     var element1=document.getElementsByClassName("light-color");
-//     for (var i = 0; i < element1.length; i++) {
-//         element1[i].style.setProperty("color", "white", "important");
-//     }
-   
-
-// });
-// document.getElementById("secondary-btn-1").addEventListener("click",function(){
-//     var element=document.getElementsByClassName("orange-bgcolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "blue", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-locolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "rgba(0,0,255,0.2)", "important");
-//         element[i].style.setProperty("color", "rgb(0,0,255)", "important");
-//     }
-//     var element=document.getElementsByClassName("passive");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "rgb(0,0,255)", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-color");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "rgb(0,0,255)", "important");
-//     }
-    
-//     // var element1=document.getElementsByClassName("light-color");
-//     // for (var i = 0; i < element1.length; i++) {
-//     //     element1[i].style.setProperty("color", "white", "important");
-//     // }
-   
-
-// });
-// document.getElementById("secondary-btn-2").addEventListener("click",function(){
-//     var element=document.getElementsByClassName("orange-bgcolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "pink", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-locolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "rgba(255,192,203,0.2)", "important");
-//         element[i].style.setProperty("color", "rgb(255,192,203)", "important");
-//     }
-//     var element=document.getElementsByClassName("passive");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "pink", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-color");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "pink", "important");
-//     }
-// });
-// document.getElementById("secondary-btn-3").addEventListener("click",function(){
-//     var element=document.getElementsByClassName("orange-bgcolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "yellow", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-locolor");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("background-color", "rgba(255,252,0,0.2)", "important");
-//         element[i].style.setProperty("color", "yellow", "important");
-//     }
-//     var element=document.getElementsByClassName("passive");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "yellow", "important");
-//     }
-//     var element=document.getElementsByClassName("orange-color");
-//     for (var i = 0; i < element.length; i++) {
-//         element[i].style.setProperty("color", "yellow", "important");
-//     }
-// });
-// let colorsInput=document.querySelector('#pickr1');
-// let colorsInput1=document.querySelector('#pickr2');
-
-
-
-//     colorsInput.addEventListener('input',() =>{
-//         let colors1 = colorsInput.value;
-//         var element=document.getElementsByClassName("dark-bgcolor");
-//         for (var i = 0; i < element.length; i++) {
-//             element[i].style.backgroundColor = colors1;
-//         }
-//         var element1=document.getElementsByClassName("light-color");
-//         for (var i = 0; i < element1.length; i++) {
-//             element1[i].style.setProperty("color", "white", "important");
-//         }
-//       });
-//       colorsInput1.addEventListener('input',() =>{
-//         let colors2 = colorsInput1.value;
-//         var element2=document.getElementsByClassName("orange-bgcolor");
-//         for (var i = 0; i < element2.length; i++) {
-//             element2[i].style.setProperty("background-color", colors2, "important");
-//         }
-//         var element3=document.getElementsByClassName("orange-locolor");
-//         for (var i = 0; i < element3.length; i++) {
-//             element3[i].style.setProperty("background-color", "rgba(255,255,255,0.2)", "important");
-//             element3[i].style.setProperty("color", colors2, "important");
-//         }
-//         var element4=document.getElementsByClassName("passive");
-//         for (var i = 0; i < element4.length; i++) {
-//             element4[i].style.setProperty("color", colors2, "important");
-//         }
-//         var element5=document.getElementsByClassName("orange-color");
-//         for (var i = 0; i < element5.length; i++) {
-//             element5[i].style.setProperty("color", colors2, "important");
-//         }
-    
-//     });
-
-
-
+const dark=document.getElementById("dark-btn");
+dark.addEventListener("click",function(){
+    document.getElementById("body").style.backgroundColor="black";
+});
+const light=document.getElementById("light-btn");
+light.addEventListener("click",function(){
+    document.getElementById("body").style.backgroundColor="white";
+});
 
 //sigin form
 const loginform = document.getElementById("loginForm");
@@ -402,23 +247,257 @@ if(cpasswordVal1===""){
   successMsg1(usernameVal1);
 }
 
-// var swiper = new Swiper(".packages-slider",{
-//     spaceBetween:20,
-//     loop:true,
-//     autoplay:{
-//         delay:2500,
-//         disableOnInteraction:false,
-//     },
-//     breakpoints:{
-//        640:{
-//            slidesPerView:1,
-//        },
-//        768:{
-//            slidesPerView:2,
-//        },
-//        1024:{
-//            slidesPerView:3,
-//        },
-//     },
-    
-// });
+
+function select(){
+
+var s=document.getElementById("days");
+var m=s.options[s.selectedIndex].text;
+var s1=document.getElementById("price");
+
+var p=s1.options[s1.selectedIndex].text;
+if(m==="Ten" && p==="Under 10000"){
+    var element=document.getElementsByClassName("ten-first");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("ten-second");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "none", "important");
+    }
+    var element2=document.getElementsByClassName("ten-third");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "none", "important");
+    }
+    var element3=document.getElementsByClassName("five");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("twenty");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Ten" && p==="Under 20000"){
+    var element=document.getElementsByClassName("ten-second");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("ten-first");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "block", "important");
+    }
+    var element2=document.getElementsByClassName("ten-third");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "block", "important");
+    }
+    var element3=document.getElementsByClassName("five");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("twenty");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Ten" && p==="Under 30000"){
+    var element=document.getElementsByClassName("ten-third");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("ten-first");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "block", "important");
+    }
+    var element2=document.getElementsByClassName("ten-second");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "block", "important");
+    }
+    var element3=document.getElementsByClassName("five");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("twenty");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Five" && p==="Under 10000"){
+    var element=document.getElementsByClassName("five-first");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("five-second");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "none", "important");
+    }
+    var element2=document.getElementsByClassName("five-third");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "none", "important");
+    }
+    var element3=document.getElementsByClassName("ten");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("twenty");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Five" && p==="Under 20000"){
+    var element=document.getElementsByClassName("five-second");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("five-first");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "block", "important");
+    }
+    var element2=document.getElementsByClassName("five-third");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "none", "important");
+    }
+    var element3=document.getElementsByClassName("ten");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("twenty");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Five" && p==="Under 30000"){
+    var element=document.getElementsByClassName("five-third");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("five-second");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "block", "important");
+    }
+    var element2=document.getElementsByClassName("five-first");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "block", "important");
+    }
+    var element3=document.getElementsByClassName("ten");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("twenty");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Twenty" && p==="Under 10000"){
+    var element=document.getElementsByClassName("twenty-first");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("twenty-second");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "none", "important");
+    }
+    var element2=document.getElementsByClassName("twenty-third");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "none", "important");
+    }
+    var element3=document.getElementsByClassName("ten");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("five");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Twenty" && p==="Under 20000"){
+    var element=document.getElementsByClassName("twenty-second");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("twenty-first");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "block", "important");
+    }
+    var element2=document.getElementsByClassName("twenty-third");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "none", "important");
+    }
+    var element3=document.getElementsByClassName("ten");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("five");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+else if(m==="Twenty" && p==="Under 30000"){
+    var element=document.getElementsByClassName("twenty-third");
+    for(var i=0;i<element.length;i++){
+        element[i].style.display="block";
+    }
+    var element1=document.getElementsByClassName("twenty-second");
+    for(var i=0;i<element1.length;i++){
+element1[i].style.setProperty("display", "block", "important");
+    }
+    var element2=document.getElementsByClassName("twenty-first");
+    for(var i=0;i<element2.length;i++){
+element2[i].style.setProperty("display", "block", "important");
+    }
+    var element3=document.getElementsByClassName("ten");
+    for(var i=0;i<element3.length;i++){
+element3[i].style.setProperty("display", "none", "important");
+    }
+    var element4=document.getElementsByClassName("five");
+    for(var i=0;i<element4.length;i++){
+element4[i].style.setProperty("display", "none", "important");
+    }
+}
+
+
+// if(p==="Under 10000"){
+//     var element=document.getElementsByClassName("first");
+//     for(var i=0;i<element.length;i++){
+//         element[i].style.display="block";
+//     }
+//     var element1=document.getElementsByClassName("second");
+//     for(var i=0;i<element1.length;i++){
+// element1[i].style.setProperty("display", "none", "important");
+//     }
+//     var element2=document.getElementsByClassName("third");
+//     for(var i=0;i<element2.length;i++){
+// element2[i].style.setProperty("display", "none", "important");
+//     }
+// }
+// else if(p==="Under 20000"){
+//     var element=document.getElementsByClassName("second");
+//     for(var i=0;i<element.length;i++){
+//         element[i].style.display="block";
+//     }
+//     var element1=document.getElementsByClassName("first");
+//     for(var i=0;i<element1.length;i++){
+// element1[i].style.setProperty("display", "none", "important");
+//     }
+//     var element2=document.getElementsByClassName("third");
+//     for(var i=0;i<element2.length;i++){
+// element2[i].style.setProperty("display", "none", "important");
+//     }
+// }
+// else if(p==="Under 30000"){
+//     var element=document.getElementsByClassName("third");
+//     for(var i=0;i<element.length;i++){
+//         element[i].style.display="block";
+//     }
+//     var element1=document.getElementsByClassName("second");
+//     for(var i=0;i<element1.length;i++){
+// element1[i].style.setProperty("display", "none", "important");
+//     }
+//     var element2=document.getElementsByClassName("first");
+//     for(var i=0;i<element2.length;i++){
+// element2[i].style.setProperty("display", "none", "important");
+//     }
+// }
+}
+document.getElementById("filter").addEventListener('click',function(){
+select();
+});
