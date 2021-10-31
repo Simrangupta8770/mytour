@@ -1,12 +1,11 @@
-
-// window.addEventListener('load', function () {
-//     setTimeout(removeLoader, 2000);
-// });
-// function removeLoader() {
-//     const preloader = document.querySelector('.preload');
-//     preloader.classList.add('preload-finish');
-//     document.querySelector('.down').style.display = "block";
-// }
+ window.addEventListener('load', function () {
+    setTimeout(removeLoader, 4000);
+});
+function removeLoader() {
+    const preloader = document.querySelector('.preload');
+    preloader.classList.add('preload-finish');
+    document.querySelector('.down').style.display = "block";
+}
 
 //search bar
 document.getElementById('search-icon').addEventListener('click', function () {
